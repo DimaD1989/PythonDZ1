@@ -14,7 +14,17 @@
 
 # Выведите в консоль таблицу умножения от 2х2 до 9х10 как на школьной тетрадке.
 
-for i in range(1,10):
-    for j in range(1,10):
-        print(f'{i*j:4}', end=" ")
-    print()
+# for i in range(1,10):
+#     for j in range(1,10):
+#         print(f'{i*j:4}', end=" ")
+#     print()
+#
+# i = 1
+# count = 10
+# while i < count:
+#     j = 1
+#     while j < count:
+#         print("%4d" % (i * j), end="")
+#         j += 1
+#     print()
+#     i += 1
